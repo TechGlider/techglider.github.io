@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+  
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  
+
+  
+  <title>Paper Review: Time, Clocks, and Ordering of Events in a Distributed System</title>
+
+  
+  
+  <link rel="stylesheet" href="https://techglider.github.io/css/hugo-octopress.css">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  
+  <link href="https://techglider.github.io/favicon.png" rel="icon">
+
+  
+  
+  
+
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <meta name="author" content="Kartik Singhal">
+
+  
+  <meta name="generator" content="Hugo 0.17-DEV" />
+
+  
+  
+
+</head>
+<body>
+
+
+<header role="banner"><hgroup>
+  
+  <h1><a href="https://techglider.github.io/">The TechGlider</a></h1>
+    <h2>Learning and sharing about Computer Science, programming, research &amp; technology</h2>
+</hgroup></header>
+
+
+<nav role="navigation">
+
+<ul class="main-navigation">
+  
+  
+    
+      <li><a href="https://techglider.github.io/categories/review" title="Reviews" >Reviews</a></li>
+    
+  
+    
+      <li><a href="https://techglider.github.io/categories/update" title="Updates" >Updates</a></li>
+    
+  
+</ul>
+
+
+<ul class="subscription">
+  
+    
+        <a href="https://techglider.github.io/index.xml" target="_blank" type="application/rss+xml" title="RSS"><i class="fa fa-rss-square fa-lg"></i></a>
+    
+  
+
+</ul>
+
+
+<form action="https://www.google.com/search" method="get" target="_blank">
+  <fieldset role="search">
+  	<input class="search" type="text" name="q" results="0" placeholder="Search"/>
+    <input type="hidden" name="q" value="site:https://techglider.github.io/" />
+  </fieldset>
+</form>
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        
+
+<header>
+    <h1 class="entry-title">
+         Paper Review: Time, Clocks, and Ordering of Events in a Distributed System 
+    </h1>
+    <p class="meta">Jul 31, 2016
+         - 3 minute read 
+        
+
+        
+        
+        
+            - <a class="label" href="https://techglider.github.io/categories/review/">review</a>
+        
+    </p>
+</header>
+
+
+        <div class="entry-content">
+          
+          
+          
+          
+
+<h2 id="paper-title">Paper Title</h2>
+
+<p>Time, Clocks, and Ordering of Events in a Distributed System</p>
+
+<h2 id="author-s">Author(s)</h2>
+
+<p>Leslie Lamport</p>
+
+<h2 id="date">Date</h2>
+
+<p>Communications of the ACM, Volume 21 Issue 7, July 1978</p>
+
+<h2 id="doi-authoritative-link-to-paper">DOI/Authoritative Link to Paper</h2>
+
+<ul>
+<li><a href="http://dx.doi.org/10.1145/359545.359563">doi:10.1145/359545.359563</a></li>
+<li>Section about this paper at <a href="http://research.microsoft.com/en-us/um/people/lamport/pubs/pubs.html#time-clocks">The Writings of Leslie Lamport</a> has a good note about the historical context and how Lamport&rsquo;s understanding of special relativity led to his insights about ordering of computing events presented in this paper.</li>
+</ul>
+
+<h2 id="novel-idea">Novel Idea</h2>
+
+<p>Establishing total order of events can be used to implement any distributed system in the form of a state machine.</p>
+
+<h2 id="main-result-s">Main Result(s)</h2>
+
+<p>Happened before relationship within a system establishes a partial order of events in the system, but it is not sufficient to say which event among two occurred first, hence the need for a total order. Lamport presents an algorithm to extend partial ordering to an arbitrary total ordering of events while introducing the concept of logical clocks (called <a href="https://en.wikipedia.org/wiki/Lamport_timestamps">Lamport timestamps</a> these days). A distributed algorithm to solve mutual exclusion is presented which demonstrates that the participating processes could just be treated as sequential state machines which can further be used to implement any arbitrary distributed system.</p>
+
+<p>Need for synchronization of physical clocks arises to prevent possible anomalies as observed by user (or one could synchronize timestamps over all communication in the network to maintain happened-before relationship). Lamport presents a theorem for the upper bound on the amount of acceptable drift in synchronizing physical clocks (the proof is hard to read).</p>
+
+<h2 id="impact">Impact</h2>
+
+<p>This is one of the most cited papers in Computer Science and considered one of the first true distributed systems paper. Introduces:</p>
+
+<ul>
+<li>A mathematical happens-before (&ldquo;happened before&rdquo; in the paper) relationship, which is widely used as the basis for current distributed systems research and has found further application in other systems areas (foundation of <a href="https://en.wikipedia.org/wiki/Java_memory_model">Java</a> and <a href="http://en.cppreference.com/w/cpp/language/memory_model">C++</a> memory models; <a href="http://dx.doi.org/10.1145/2660193.2660224">Atlas</a>, a persistent programming model (that I am working with this summer)).</li>
+<li>Concept of causality / causal ordering of events in distributed systems.</li>
+<li>Concept of logical clocks (Lamport clocks or Lamport timestamps) which further led to development of important ideas like vector clocks in later distributed systems research (while logical clocks are just software counters, I still need to learn what vector clocks are).</li>
+</ul>
+
+<p>More at <a href="http://www.podc.org/influential/2000-influential-paper/">2000 PODC Influential Paper Award</a> page.</p>
+
+<h2 id="evidence">Evidence</h2>
+
+<p>This paper is fairly mathematical in nature. Mathematical definitions for most ideas introduced are provided which are then used to logically establish further results. Includes just one theorem which provides a upper bound on drift that is allowed in synchronizing physical time clocks but the author himself admits the proof is pretty difficult and hence is included in the Appendix.</p>
+
+<h2 id="prior-work">Prior Work</h2>
+
+<p>There are just 4 references cited in the paper, two of which are foundational for this work, both describing relativity. Concept of causal effect is inspired from special relativity.</p>
+
+<h2 id="competitive-work">Competitive Work</h2>
+
+<p>NA</p>
+
+<h2 id="reproducibility">Reproducibility</h2>
+
+<p>NA</p>
+
+<h2 id="question">Question</h2>
+
+<p>Is the concept of logical time (given it can be used to establish total ordering) always sufficient for implementing imodern distributed systems or do we always need to resort to physical clocks? How are the space overheads (described in mutual exclusion example in the paper) overcome?</p>
+
+<h2 id="criticism">Criticism</h2>
+
+<p>Do physical clocks as described by Lamport (with difficult to grasp mathematics and proof) play any important rule in modern design of distributed systems (apart from time sync protocols like NTP)?</p>
+
+<h2 id="ideas-for-further-work">Ideas for further work</h2>
+
+<p>This paper clarified many concepts about time and synchronization between processes for me which should be useful in my current summer project. A good insight was how one does not need to depend on system clock for establishing order of events among processes even on a single machine.</p>
+
+<hr />
+
+<p>Review Template Credits:
+<a href="http://cs.brown.edu/courses/csci2950-u/s14/review.html">Prof. Rodrigo Fonseca</a></p>
+
+        </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Posted by <span class="fn">Kartik Singhal</span></span>
+    
+    <time>Jul 31, 2016</time>
+    
+      <span class="categories">
+        Tags:
+        
+          <a class="category" href="https://techglider.github.io/tags/papers">papers</a>  <a class="category" href="https://techglider.github.io/tags/clock-synchronization">clock synchronization</a>  <a class="category" href="https://techglider.github.io/tags/computer-networks">computer networks</a>  <a class="category" href="https://techglider.github.io/tags/distributed-systems">distributed systems</a>  <a class="category" href="https://techglider.github.io/tags/multiprocess-systems">multiprocess systems</a>  
+    
+    </span>
+  </p>
+
+  
+  
+
+  
+
+  <p class="meta">
+    
+
+    
+  </p>
+  
+</footer>
+
+      </article>
+    </div>
+    
+
+<aside class="sidebar thirds">
+  <section class="first odd">
+
+    
+
+    <p>
+      
+    </p>
+  </section>
+
+
+
+  
+  <ul class="sidebar-nav">
+    <li class="sidebar-nav-item">
+      <a target="_blank" href="https://techglider.slack.com" title="https://techglider.slack.com"><i class="fa fa-slack fa-3x"></i></a>
+      <a target="_blank" href="https://github.com/techglider" title="https://github.com/techglider"><i class="fa fa-github fa-3x"></i></a>
+      
+      <a target="_blank" href="https://twitter.com/techglider" title="https://twitter.com/techglider"><i class="fa fa-twitter fa-3x"></i></a>
+       
+      
+      
+      
+      
+      
+
+    
+    
+    </li>
+  </ul>
+
+  
+
+  
+
+  
+  
+  
+    <section class="even">
+      <h1>Recent Posts</h1>
+      <ul id="recent_posts">
+        
+          <li class="post">
+            <a href="/review/paper-review-time-clocks-and-ordering-of-events-in-a-distributed-system/">Paper Review: Time, Clocks, and Ordering of Events in a Distributed System</a>
+          </li>
+        
+          <li class="post">
+            <a href="/license/">License</a>
+          </li>
+        
+          <li class="post">
+            <a href="/update/welcome-to-the-all-new-techglider/">Welcome to the all new TechGlider!</a>
+          </li>
+        
+      </ul>
+    </section>
+  
+
+</aside>
+
+  </div>
+</div>
+
+<footer role="contentinfo">
+  <p>Copyright &copy; 2016 Kartik Singhal - <a href="https://techglider.github.io/license/">License</a> -
+  <span class="credit">Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/">Hugo-Octopress</a> theme.
+</p>
+
+</footer>
+
+
+</body>
+</html>
+

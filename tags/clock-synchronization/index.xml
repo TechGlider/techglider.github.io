@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The TechGlider</title>
-    <link>https://techglider.github.io/</link>
-    <description>Recent content on The TechGlider</description>
+    <title>Clock Synchronization on The TechGlider</title>
+    <link>https://techglider.github.io/tags/clock-synchronization/</link>
+    <description>Recent content in Clock Synchronization on The TechGlider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Jul 2016 20:28:41 -0700</lastBuildDate>
-    <atom:link href="https://techglider.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techglider.github.io/tags/clock-synchronization/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Paper Review: Time, Clocks, and Ordering of Events in a Distributed System</title>
@@ -90,30 +90,6 @@
 
 &lt;p&gt;Review Template Credits:
 &lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;Prof. Rodrigo Fonseca&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>License</title>
-      <link>https://techglider.github.io/license/</link>
-      <pubDate>Sun, 31 Jul 2016 14:15:57 -0700</pubDate>
-      
-      <guid>https://techglider.github.io/license/</guid>
-      <description>&lt;p&gt;&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span xmlns:dct=&#34;http://purl.org/dc/terms/&#34; href=&#34;http://purl.org/dc/dcmitype/Text&#34; property=&#34;dct:title&#34; rel=&#34;dct:type&#34;&gt;The TechGlider&lt;/span&gt; by &lt;a xmlns:cc=&#34;http://creativecommons.org/ns#&#34; href=&#34;https://github.com/k4rtik&#34; property=&#34;cc:attributionName&#34; rel=&#34;cc:attributionURL&#34;&gt;Kartik Singhal&lt;/a&gt; is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;Creative Commons Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a xmlns:dct=&#34;http://purl.org/dc/terms/&#34; href=&#34;https://github.com/TechGlider/tg-site-hugo&#34; rel=&#34;dct:source&#34;&gt;&lt;a href=&#34;https://github.com/TechGlider/tg-site-hugo&#34;&gt;https://github.com/TechGlider/tg-site-hugo&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome to the all new TechGlider!</title>
-      <link>https://techglider.github.io/update/welcome-to-the-all-new-techglider/</link>
-      <pubDate>Sun, 31 Jul 2016 12:01:54 -0700</pubDate>
-      
-      <guid>https://techglider.github.io/update/welcome-to-the-all-new-techglider/</guid>
-      <description>&lt;p&gt;The aim of this GitHub site is to disseminate high quality content related to Computer Science, research, programming and general technology.&lt;/p&gt;
-
-&lt;p&gt;We have a &lt;a href=&#34;https://github.com/techglider&#34;&gt;GitHub organization&lt;/a&gt; for collaboration, a &lt;a href=&#34;https://twitter.com/techglider&#34;&gt;Twitter account&lt;/a&gt; for announcing updates and a &lt;a href=&#34;https://techglider.slack.com&#34;&gt;Slack channel&lt;/a&gt; for discussion.&lt;/p&gt;
-
-&lt;p&gt;Stay tuned!&lt;/p&gt;
 </description>
     </item>
     
