@@ -76,7 +76,7 @@
 
 &lt;h2 id=&#34;question&#34;&gt;Question&lt;/h2&gt;
 
-&lt;p&gt;Is the concept of logical time (given it can be used to establish total ordering) always sufficient for implementing imodern distributed systems or do we always need to resort to physical clocks? How are the space overheads (described in mutual exclusion example in the paper) overcome?&lt;/p&gt;
+&lt;p&gt;Is the concept of logical time (given it can be used to establish total ordering) always sufficient for implementing modern distributed systems or do we always need to resort to physical clocks? How are the space overheads (described in mutual exclusion example in the paper) overcome?&lt;/p&gt;
 
 &lt;h2 id=&#34;criticism&#34;&gt;Criticism&lt;/h2&gt;
 
