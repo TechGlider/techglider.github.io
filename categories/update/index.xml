@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Update on The TechGlider</title>
-    <link>https://techglider.github.io/categories/update/</link>
+    <link>https://techglider.github.io/categories/update/index.xml</link>
     <description>Recent content in Update on The TechGlider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jul 2016 12:01:54 -0700</lastBuildDate>
     <atom:link href="https://techglider.github.io/categories/update/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

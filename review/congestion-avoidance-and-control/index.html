@@ -16,7 +16,7 @@
   
 
   
-  <title>Welcome to the all new TechGlider!</title>
+  <title>Congestion Avoidance and Control</title>
 
   
   
@@ -105,16 +105,16 @@ ga('send', 'pageview');
 
 <header>
     <h1 class="entry-title">
-         Welcome to the all new TechGlider! 
+         Congestion Avoidance and Control 
     </h1>
-    <p class="meta">Jul 31, 2016
-         - 1 minute read 
-         - <a href="https://techglider.github.io/update/welcome-to-the-all-new-techglider/#disqus_thread">Comments</a>
+    <p class="meta">Feb 1, 2017
+         - 2 minute read 
+         - <a href="https://techglider.github.io/review/congestion-avoidance-and-control/#disqus_thread">Comments</a>
 
         
         
         
-            - <a class="label" href="https://techglider.github.io/categories/update/">update</a>
+            - <a class="label" href="https://techglider.github.io/categories/review/">review</a>
         
     </p>
 </header>
@@ -124,12 +124,65 @@ ga('send', 'pageview');
           
           
           
-          <p>The aim of this GitHub site is to disseminate high quality content related to Computer Science, research, programming and general technology.</p>
+          <h2 id="paper-title">Paper Title</h2>
 
-<p>We have a <a href="https://github.com/techglider">GitHub organization</a> for collaboration, a <a href="https://twitter.com/techglider">Twitter account</a> for announcing updates and a <a href="https://techglider.slack.com">Slack channel</a> for discussion.</p>
+<p>Congestion Avoidance and Control</p>
 
-<p>Stay tuned!</p>
+<h2 id="author-s">Author(s)</h2>
 
+<p>Van Jacobson and Michael J Karels</p>
+
+<h2 id="date">Date</h2>
+
+<p>November, 1988 (Slightly revised version; originally published in Symposium proceedings on Communications architectures and protocols (SIGCOMM &lsquo;88))</p>
+
+<p></p>
+
+<h2 id="doi-authoritative-link-to-paper">DOI/Authoritative Link to Paper</h2>
+
+<ul>
+<li><a href="http://dx.doi.org/10.1145/52324.52356">doi:10.1145/52324.52356</a></li>
+<li><a href="https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/tcp.pdf">Revised version that I read</a></li>
+</ul>
+
+<h2 id="novel-idea-main-result-s">Novel Idea / Main Result(s)</h2>
+
+<p>The paper describes the congestion-related problems observed in the erstwhile TCP variant and reports on the algorithms introduced to tackle those problems.</p>
+
+<h2 id="impact">Impact</h2>
+
+<p>Given we are still reading/talking about this paper after almost three decades, it is fair to say the paper has had a lasting impact. Recalling the congestion control and avoidance concepts studied in <a href="https://cs.brown.edu/courses/csci1680/f16/">CS168</a>, I see that most of those basic ideas originated here in this paper and its references.</p>
+
+<h2 id="evidence">Evidence</h2>
+
+<p>Both intuitive/mathematical and empirical analysis is described. I especially like the effectiveness of the diagrams in Fig 1 and 2. The charts are all drawn from experiments done between LBL and UCB in a real setting and hence are quite convincing.</p>
+
+<h2 id="reproducibility">Reproducibility</h2>
+
+<p>Yes, the description is enough, with a lot of work and resources</p>
+
+<h2 id="question">Question</h2>
+
+<p>The authors talk about possible change in some of their results when the Internet grows large (like the introduction of a third term in the Taylor series on pg. 9) at multiple points. I would like to see what all has changed and what has stood the test of time.</p>
+
+<h2 id="criticism">Criticism</h2>
+
+<p>NA</p>
+
+<h2 id="ideas-for-further-work">Ideas for further work</h2>
+
+<p>I found the connections to queueing theory/control theory and even the conservation principle of liquid flow as an analogy to network flow really interesting. It also reminded me of <a href="/review/time-clocks-and-ordering-of-events-in-a-distributed-system/">Lamport&rsquo;s time, clocks, ordering paper</a> where he was able to bring in ideas from relativity into computing. These connections, in general, suggest how sometimes well-established ideas from another field can be applied to one&rsquo;s field and why interdisciplinary research makes good sense.</p>
+
+<h3 id="template-credits">Template Credits</h3>
+
+<p>Rodrigo Fonseca <a href="http://cs.brown.edu/courses/csci2950-u/s14/review.html">http://cs.brown.edu/courses/csci2950-u/s14/review.html</a></p>
+
+<h3 id="note">Note</h3>
+
+<ol>
+<li>I am taking a graduate seminar this semester at Brown: <a href="http://cs.brown.edu/courses/csci2950-u/s17/">Special Topics on Networking and Distributed Systems Advanced Networking</a>. This and most of the following paper reviews until early-May will be my reviews submitted for this seminar with some minor editing.</li>
+<li>This review posted here on Feb 9, 2017</li>
+</ol>
         </div>
         
 
@@ -137,12 +190,12 @@ ga('send', 'pageview');
   <p class="meta">
     <span class="byline author vcard">Posted by <span class="fn">Kartik Singhal</span></span>
     
-    <time>Jul 31, 2016</time>
+    <time>Feb 1, 2017</time>
     
       <span class="categories">
         Tags:
         
-          <a class="category" href="https://techglider.github.io/tags/announcement">announcement</a>  
+          <a class="category" href="https://techglider.github.io/tags/papers">papers</a>  <a class="category" href="https://techglider.github.io/tags/computer-networks">computer networks</a>  <a class="category" href="https://techglider.github.io/tags/tcp">TCP</a>  <a class="category" href="https://techglider.github.io/tags/protocols">protocols</a>  <a class="category" href="https://techglider.github.io/tags/sigcomm">SIGCOMM</a>  <a class="category" href="https://techglider.github.io/tags/communications">communications</a>  <a class="category" href="https://techglider.github.io/tags/seminar">seminar</a>  
     
     </span>
   </p>
@@ -153,6 +206,8 @@ ga('send', 'pageview');
   
 
   <p class="meta">
+    
+        <a class="basic-alignment left" href="https://techglider.github.io/review/time-clocks-and-ordering-of-events-in-a-distributed-system/" title="Time, Clocks, and Ordering of Events in a Distributed System">Time, Clocks, and Ordering of Events in a Distributed System</a>
     
 
     

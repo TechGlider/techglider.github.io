@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clock Synchronization on The TechGlider</title>
-    <link>https://techglider.github.io/tags/clock-synchronization/</link>
+    <link>https://techglider.github.io/tags/clock-synchronization/index.xml</link>
     <description>Recent content in Clock Synchronization on The TechGlider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jul 2016 20:28:41 -0700</lastBuildDate>
     <atom:link href="https://techglider.github.io/tags/clock-synchronization/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,9 +14,7 @@
       <pubDate>Sun, 31 Jul 2016 20:28:41 -0700</pubDate>
       
       <guid>https://techglider.github.io/review/time-clocks-and-ordering-of-events-in-a-distributed-system/</guid>
-      <description>
-
-&lt;h2 id=&#34;paper-title&#34;&gt;Paper Title&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;paper-title&#34;&gt;Paper Title&lt;/h2&gt;
 
 &lt;p&gt;Time, Clocks, and Ordering of Events in a Distributed System&lt;/p&gt;
 
@@ -28,6 +25,8 @@
 &lt;h2 id=&#34;date&#34;&gt;Date&lt;/h2&gt;
 
 &lt;p&gt;Communications of the ACM, Volume 21 Issue 7, July 1978&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;doi-authoritative-link-to-paper&#34;&gt;DOI/Authoritative Link to Paper&lt;/h2&gt;
 
@@ -89,8 +88,7 @@
 &lt;hr /&gt;
 
 &lt;p&gt;Review Template Credits:
-&lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;Prof. Rodrigo Fonseca&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;Prof. Rodrigo Fonseca&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

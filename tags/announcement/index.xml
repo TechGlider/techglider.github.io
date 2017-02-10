@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Announcement on The TechGlider</title>
-    <link>https://techglider.github.io/tags/announcement/</link>
+    <link>https://techglider.github.io/tags/announcement/index.xml</link>
     <description>Recent content in Announcement on The TechGlider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jul 2016 12:01:54 -0700</lastBuildDate>
     <atom:link href="https://techglider.github.io/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
