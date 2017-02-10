@@ -1,0 +1,45 @@
+==================================================================
+https://keybase.io/k4rtik
+--------------------------------------------------------------------
+I hereby claim:
+  * I am an admin of https://techglider.github.io
+  * I am k4rtik (https://keybase.io/k4rtik) on keybase.
+  * I have a public key ASArYe8JNs8SHrdGSQ5NK_04EfF4JWllut_tvYQTvRACAQo
+To do so, I am signing this object:
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101cdfbf4a1d6fec3f5b80e005cbb258b9a736769b414a6643485883ba0de4a7f410a",
+            "host": "keybase.io",
+            "kid": "01202b61ef0936cf121eb746490e4d2bfd3811f178256965badfedbd8413bd1002010a",
+            "uid": "ba23d02816b6c669ff5c6c5a2eafbd00",
+            "username": "k4rtik"
+        },
+        "service": {
+            "hostname": "techglider.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486745549,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486745542,
+        "hash": "b8361788c93f0e86b6dc7ca25ed8c91faa8af92d9bd442636a4305527fcf9b8748cf5b7cceed2d00676eac4d5f178512daf0dbad9fbaab555dd8a4bd15ad2f00",
+        "seqno": 870578
+    },
+    "prev": "52546b540bbb4c409a391604ef8420fde92edf122686604659c60351c9f647a3",
+    "seqno": 50,
+    "tag": "signature"
+}
+which yields the signature:
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgK2HvCTbPEh63RkkOTSv9OBHxeCVpZbrf7b2EE70QAgEKp3BheWxvYWTFAvt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxY2RmYmY0YTFkNmZlYzNmNWI4MGUwMDVjYmIyNThiOWE3MzY3NjliNDE0YTY2NDM0ODU4ODNiYTBkZTRhN2Y0MTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMmI2MWVmMDkzNmNmMTIxZWI3NDY0OTBlNGQyYmZkMzgxMWYxNzgyNTY5NjViYWRmZWRiZDg0MTNiZDEwMDIwMTBhIiwidWlkIjoiYmEyM2QwMjgxNmI2YzY2OWZmNWM2YzVhMmVhZmJkMDAiLCJ1c2VybmFtZSI6Ims0cnRpayJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoidGVjaGdsaWRlci5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4Njc0NTU0OSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg2NzQ1NTQyLCJoYXNoIjoiYjgzNjE3ODhjOTNmMGU4NmI2ZGM3Y2EyNWVkOGM5MWZhYThhZjkyZDliZDQ0MjYzNmE0MzA1NTI3ZmNmOWI4NzQ4Y2Y1YjdjY2VlZDJkMDA2NzZlYWM0ZDVmMTc4NTEyZGFmMGRiYWQ5ZmJhYWI1NTVkZDhhNGJkMTVhZDJmMDAiLCJzZXFubyI6ODcwNTc4fSwicHJldiI6IjUyNTQ2YjU0MGJiYjRjNDA5YTM5MTYwNGVmODQyMGZkZTkyZWRmMTIyNjg2NjA0NjU5YzYwMzUxYzlmNjQ3YTMiLCJzZXFubyI6NTAsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAhA+pDhpS2rAM4NxN01UOte/Jke14/cJKl4NBPs5LPqWTIMXCRlshYnYQ4um2ifmcnHLjMdvsdnRR2bKAYQzpDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINzI2igQ1MiewZoGX/fQzyZ4ifYNMxQAVCgp+i5Km6ono3RhZ80CAqd2ZXJzaW9uAQ==
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+View my publicly-auditable identity here: https://keybase.io/k4rtik
+==================================================================
