@@ -64,14 +64,15 @@
 
 &lt;p&gt;I found the connections to queueing theory/control theory and even the conservation principle of liquid flow as an analogy to network flow really interesting. It also reminded me of &lt;a href=&#34;https://techglider.github.io/review/time-clocks-and-ordering-of-events-in-a-distributed-system/&#34;&gt;Lamport&amp;rsquo;s time, clocks, ordering paper&lt;/a&gt; where he was able to bring in ideas from relativity into computing. These connections, in general, suggest how sometimes well-established ideas from another field can be applied to one&amp;rsquo;s field and why interdisciplinary research makes good sense.&lt;/p&gt;
 
-&lt;h3 id=&#34;template-credits&#34;&gt;Template Credits&lt;/h3&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;Rodrigo Fonseca &lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;http://cs.brown.edu/courses/csci2950-u/s14/review.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Review Template Credits:
+&lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;Prof. Rodrigo Fonseca&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;I am taking a graduate seminar this semester at Brown: &lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s17/&#34;&gt;Special Topics on Networking and Distributed Systems Advanced Networking&lt;/a&gt;. This and most of the following paper reviews until early-May will be my reviews submitted for this seminar with some minor editing.&lt;/li&gt;
+&lt;li&gt;I am taking a graduate seminar this semester at Brown: &lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s17/&#34;&gt;Special Topics on Networking and Distributed Systems&lt;/a&gt;. This and most of the following paper reviews until early-May will be my reviews submitted for this seminar with some minor editing.&lt;/li&gt;
 &lt;li&gt;This review posted here on Feb 9, 2017&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
