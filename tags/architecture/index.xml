@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture on The TechGlider</title>
+    <link>https://techglider.github.io/tags/architecture/index.xml</link>
+    <description>Recent content in Architecture on The TechGlider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://techglider.github.io/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Flow Rate Fairness: Dismantling a Religion</title>
+      <link>https://techglider.github.io/review/flow-rate-fairness-dismantling-a-religion/</link>
+      <pubDate>Tue, 14 Feb 2017 14:05:49 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/review/flow-rate-fairness-dismantling-a-religion/</guid>
+      <description>&lt;h2 id=&#34;paper-title&#34;&gt;Paper Title&lt;/h2&gt;
+
+&lt;p&gt;Flow Rate Fairness: Dismantling a Religion&lt;/p&gt;
+
+&lt;h2 id=&#34;author-s&#34;&gt;Author(s)&lt;/h2&gt;
+
+&lt;p&gt;Bob Briscoe&lt;/p&gt;
+
+&lt;h2 id=&#34;date&#34;&gt;Date&lt;/h2&gt;
+
+&lt;p&gt;March 2007. ACM SIGCOMM Computer Communication Review, Volume 37 Issue 2.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;doi-authoritative-link-to-paper&#34;&gt;DOI/Authoritative Link to Paper&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://dx.doi.org/10.1145/1232919.1232926&#34;&gt;doi:10.1145/1232919.1232926&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.bobbriscoe.net/pubs.html#rateFairDis&#34;&gt;Author&amp;rsquo;s listing of paper and slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;novel-idea-main-result-s&#34;&gt;Novel Idea / Main Result(s)&lt;/h2&gt;
+
+&lt;p&gt;The main claim of the paper is that flow rate as a metric for fairness is completely bogus and a better metric for the same should be the cost.&lt;/p&gt;
+
+&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
+
+&lt;p&gt;Not completely sure how fairness criterion has/has not changed in the past 10 years since this paper was published. But my takeaway from this paper is that long-established norms should not be taken for granted and there is value in evaluating the truth for each established view from time to time.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s fair to say though that I did not find any rebuttal paper in the defense of flow rate fairness as the author of this paper demands. However, RFC 5290 presents some alternate views on the topic.&lt;/p&gt;
+
+&lt;h2 id=&#34;evidence&#34;&gt;Evidence&lt;/h2&gt;
+
+&lt;p&gt;I did not find the argument very convincing given the lack of analytical or empirical analysis. The reasoning is based on arguments from philosophy, social science and &amp;ldquo;real life&amp;rdquo; for a more accurate definition of fairness.&lt;/p&gt;
+
+&lt;h2 id=&#34;reproducibility&#34;&gt;Reproducibility&lt;/h2&gt;
+
+&lt;p&gt;No, the description is not sufficient to reproduce the work.&lt;/p&gt;
+
+&lt;h2 id=&#34;question&#34;&gt;Question&lt;/h2&gt;
+
+&lt;p&gt;I was reminded of thinking about the Internet as a utility (from the net neutrality debate outside of this paper) and how another utility &amp;ndash; electricity &amp;ndash; is well distributed across the grid system fairly. I wonder if there are lessons to be learned from this analogy given the complexities and non-uniform nature of the global Internet.&lt;/p&gt;
+
+&lt;h2 id=&#34;criticism&#34;&gt;Criticism&lt;/h2&gt;
+
+&lt;p&gt;My main concern with this paper is that it tries to make such a big claim about the futility of a fairness metric that has been working for a couple of decades but fails to provide enough persuasive evidence to substantiate the claims.&lt;/p&gt;
+
+&lt;h2 id=&#34;ideas-for-further-work&#34;&gt;Ideas for further work&lt;/h2&gt;
+
+&lt;p&gt;See the Question section above.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Review Template Credits:
+&lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;Prof. Rodrigo Fonseca&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -16,7 +16,7 @@
   
 
   
-  <title>Time, Clocks, and Ordering of Events in a Distributed System</title>
+  <title>Analysis and Simulation of a Fair Queueing Algorithm</title>
 
   
   
@@ -104,9 +104,9 @@ ga('send', 'pageview');
         
 
 <header>
-    <p class="meta">Jul 31, 2016
-         - 3 minute read 
-         - <a href="https://techglider.github.io/review/time-clocks-and-ordering-of-events-in-a-distributed-system/#disqus_thread">Comments</a>
+    <p class="meta">Feb 14, 2017
+         - 2 minute read 
+         - <a href="https://techglider.github.io/review/analysis-and-simulation-of-a-fair-queueing-algorithm/#disqus_thread">Comments</a>
 
         
         
@@ -115,7 +115,7 @@ ga('send', 'pageview');
         
     </p>
     <h1 class="entry-title">
-         Time, Clocks, and Ordering of Events in a Distributed System 
+         Analysis and Simulation of a Fair Queueing Algorithm 
     </h1>
 </header>
 
@@ -126,74 +126,54 @@ ga('send', 'pageview');
           
           <h2 id="paper-title">Paper Title</h2>
 
-<p>Time, Clocks, and Ordering of Events in a Distributed System</p>
+<p>Analysis and Simulation of a Fair Queueing Algorithm</p>
 
 <h2 id="author-s">Author(s)</h2>
 
-<p>Leslie Lamport</p>
+<p>Alan Demers, Srinivasan Keshav and Scott Shenker</p>
 
 <h2 id="date">Date</h2>
 
-<p>July 1978. Communications of the ACM, Volume 21 Issue 7.</p>
+<p>September 1989. Symposium proceedings on Communications architectures &amp; protocols (SIGCOMM &lsquo;89).</p>
 
 <p></p>
 
 <h2 id="doi-authoritative-link-to-paper">DOI/Authoritative Link to Paper</h2>
 
 <ul>
-<li><a href="http://dx.doi.org/10.1145/359545.359563">doi:10.1145/359545.359563</a></li>
-<li>Section about this paper at <a href="http://research.microsoft.com/en-us/um/people/lamport/pubs/pubs.html#time-clocks">The Writings of Leslie Lamport</a> has a good note about the historical context and how Lamport&rsquo;s understanding of special relativity led to his insights about ordering of computing events presented in this paper.</li>
+<li><a href="http://dx.doi.org/10.1145/75246.75248">doi:10.1145/75246.75248</a></li>
+<li><a href="https://cseweb.ucsd.edu/classes/wi01/cse222/papers/demers-fq-ire90.pdf">Alternate single column format</a></li>
 </ul>
 
-<h2 id="novel-idea">Novel Idea</h2>
+<h2 id="novel-idea-main-result-s">Novel Idea / Main Result(s)</h2>
 
-<p>Establishing total order of events can be used to implement any distributed system in the form of a state machine.</p>
-
-<h2 id="main-result-s">Main Result(s)</h2>
-
-<p>Happened before relationship within a system establishes a partial order of events in the system, but it is not sufficient to say which event among two occurred first, hence the need for a total order. Lamport presents an algorithm to extend partial ordering to an arbitrary total ordering of events while introducing the concept of logical clocks (called <a href="https://en.wikipedia.org/wiki/Lamport_timestamps">Lamport timestamps</a> these days). A distributed algorithm to solve mutual exclusion is presented which demonstrates that the participating processes could just be treated as sequential state machines which can further be used to implement any arbitrary distributed system.</p>
-
-<p>Need for synchronization of physical clocks arises to prevent possible anomalies as observed by user (or one could synchronize timestamps over all communication in the network to maintain happened-before relationship). Lamport presents a theorem for the upper bound on the amount of acceptable drift in synchronizing physical clocks (the proof is hard to read).</p>
+<p>The paper presents an improved version of the fair queueing algorithm first proposed by Nagle, discusses limitations of congestion control with FCFS queuing, presents mathematical foundation behind their algorithm and finally, discusses the performance of this new algorithm in various real world scenarios with the help of simulations.</p>
 
 <h2 id="impact">Impact</h2>
 
-<p>This is one of the most cited papers in Computer Science and considered one of the first true distributed systems paper. Introduces:</p>
+<p>This was the first time that performance implications of a fair queuing algorithm were studied in detail and published. Network scheduling / queue management became an active area of networks research with several other algorithms proposed later.</p>
 
-<ul>
-<li>A mathematical happens-before (&ldquo;happened before&rdquo; in the paper) relationship, which is widely used as the basis for current distributed systems research and has found further application in other systems areas (foundation of <a href="https://en.wikipedia.org/wiki/Java_memory_model">Java</a> and <a href="http://en.cppreference.com/w/cpp/language/memory_model">C++</a> memory models; <a href="http://dx.doi.org/10.1145/2660193.2660224">Atlas</a>, a persistent programming model (that I am working with this summer)).</li>
-<li>Concept of causality / causal ordering of events in distributed systems.</li>
-<li>Concept of logical clocks (Lamport clocks or Lamport timestamps) which further led to development of important ideas like vector clocks in later distributed systems research (while logical clocks are just software counters, I still need to learn what vector clocks are).</li>
-</ul>
-
-<p>More at <a href="http://www.podc.org/influential/2000-influential-paper/">2000 PODC Influential Paper Award</a> page.</p>
+<p>Further, this paper identifies flow (called conversations in this paper) as a good criterion for bandwidth &amp; buffer allocations, which has become a standard concept in the Software-Defined Networking research.</p>
 
 <h2 id="evidence">Evidence</h2>
 
-<p>This paper is fairly mathematical in nature. Mathematical definitions for most ideas introduced are provided which are then used to logically establish further results. Includes just one theorem which provides a upper bound on drift that is allowed in synchronizing physical time clocks but the author himself admits the proof is pretty difficult and hence is included in the Appendix.</p>
-
-<h2 id="prior-work">Prior Work</h2>
-
-<p>There are just 4 references cited in the paper, two of which are foundational for this work, both describing relativity. Concept of causal effect is inspired from special relativity.</p>
-
-<h2 id="competitive-work">Competitive Work</h2>
-
-<p>NA</p>
+<p>The authors come up with a methodology to emulate bit-wise round robin scheduling (which is intuitive to fairness but impractical for implementation) and provide both rigorous mathematical analysis and empirical analysis (with the help of network simulation experiments in various scenario) to justify their results. The evidence is, hence, quite convincing.</p>
 
 <h2 id="reproducibility">Reproducibility</h2>
 
-<p>NA</p>
+<p>Yes, the description is enough, with a lot of work and resources</p>
 
 <h2 id="question">Question</h2>
 
-<p>Is the concept of logical time (given it can be used to establish total ordering) always sufficient for implementing modern distributed systems or do we always need to resort to physical clocks? How are the space overheads (described in mutual exclusion example in the paper) overcome?</p>
+<p>Primarily, I wonder, (as the authors point out in conclusion) whether technology has matured enough in past 30 years that we can have a true implementation of a fair queuing (for a reasonable definition of &ldquo;fair&rdquo;)?</p>
 
 <h2 id="criticism">Criticism</h2>
 
-<p>Do physical clocks as described by Lamport (with difficult to grasp mathematics and proof) play any important rule in modern design of distributed systems (apart from time sync protocols like NTP)?</p>
+<p>I found the mathematics covered in §2.3 fairly hard to follow and perhaps it could have used further explanation. This is in contrast to the scenario diagrams presented in a later section which were both self-descriptive and had major observations pointed out in prose.</p>
 
 <h2 id="ideas-for-further-work">Ideas for further work</h2>
 
-<p>This paper clarified many concepts about time and synchronization between processes for me which should be useful in my current summer project. A good insight was how one does not need to depend on system clock for establishing order of events among processes even on a single machine.</p>
+<p>NA</p>
 
 <hr />
 
@@ -206,12 +186,12 @@ ga('send', 'pageview');
   <p class="meta">
     <span class="byline author vcard">Posted by <span class="fn">Kartik Singhal</span></span>
     
-    <time>Jul 31, 2016</time>
+    <time>Feb 14, 2017</time>
     
       <span class="categories">
         Tags:
         
-          <a class="category" href="https://techglider.github.io/tags/papers">papers</a>  <a class="category" href="https://techglider.github.io/tags/clock-synchronization">clock synchronization</a>  <a class="category" href="https://techglider.github.io/tags/computer-networks">computer networks</a>  <a class="category" href="https://techglider.github.io/tags/distributed-systems">distributed systems</a>  <a class="category" href="https://techglider.github.io/tags/multiprocess-systems">multiprocess systems</a>  
+          <a class="category" href="https://techglider.github.io/tags/papers">papers</a>  <a class="category" href="https://techglider.github.io/tags/computer-networks">computer networks</a>  <a class="category" href="https://techglider.github.io/tags/congestion-control">congestion control</a>  <a class="category" href="https://techglider.github.io/tags/fairness">fairness</a>  <a class="category" href="https://techglider.github.io/tags/sigcomm">SIGCOMM</a>  <a class="category" href="https://techglider.github.io/tags/communications">communications</a>  <a class="category" href="https://techglider.github.io/tags/seminar">seminar</a>  
     
     </span>
   </p>
@@ -223,9 +203,11 @@ ga('send', 'pageview');
 
   <p class="meta">
     
+        <a class="basic-alignment left" href="https://techglider.github.io/review/congestion-avoidance-and-control/" title="Congestion Avoidance and Control">Congestion Avoidance and Control</a>
+    
 
     
-      <a class="basic-alignment right" href="https://techglider.github.io/review/congestion-avoidance-and-control/" title="Congestion Avoidance and Control">Congestion Avoidance and Control</a>
+      <a class="basic-alignment right" href="https://techglider.github.io/review/flow-rate-fairness-dismantling-a-religion/" title="Flow Rate Fairness: Dismantling a Religion">Flow Rate Fairness: Dismantling a Religion</a>
     
   </p>
   
