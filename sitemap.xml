@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://techglider.github.io/review/bbr-congestion-based-congestion-control/</loc>
+    <lastmod>2017-02-16T08:32:13-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techglider.github.io/review/flow-rate-fairness-dismantling-a-religion/</loc>
     <lastmod>2017-02-14T14:05:49-05:00</lastmod>
   </url>
@@ -39,7 +44,7 @@
   
   <url>
     <loc>https://techglider.github.io/tags/architecture/</loc>
-    <lastmod>2017-02-14T14:05:49-05:00</lastmod>
+    <lastmod>2017-02-16T08:32:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,13 +67,13 @@
   
   <url>
     <loc>https://techglider.github.io/tags/computer-networks/</loc>
-    <lastmod>2017-02-14T14:05:49-05:00</lastmod>
+    <lastmod>2017-02-16T08:32:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://techglider.github.io/tags/congestion-control/</loc>
-    <lastmod>2017-02-14T14:05:49-05:00</lastmod>
+    <lastmod>2017-02-16T08:32:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -80,7 +85,7 @@
   
   <url>
     <loc>https://techglider.github.io/tags/fairness/</loc>
-    <lastmod>2017-02-14T14:05:49-05:00</lastmod>
+    <lastmod>2017-02-16T08:32:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -92,7 +97,7 @@
   
   <url>
     <loc>https://techglider.github.io/tags/papers/</loc>
-    <lastmod>2017-02-14T14:05:49-05:00</lastmod>
+    <lastmod>2017-02-16T08:32:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -116,19 +121,19 @@
   
   <url>
     <loc>https://techglider.github.io/categories/review/</loc>
-    <lastmod>2017-02-14T14:05:49-05:00</lastmod>
+    <lastmod>2017-02-16T08:32:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://techglider.github.io/review/</loc>
-    <lastmod>2017-02-14T14:05:49-05:00</lastmod>
+    <lastmod>2017-02-16T08:32:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://techglider.github.io/tags/seminar/</loc>
-    <lastmod>2017-02-14T14:05:49-05:00</lastmod>
+    <lastmod>2017-02-16T08:32:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -151,7 +156,7 @@
   
   <url>
     <loc>https://techglider.github.io/</loc>
-    <lastmod>2017-02-14T14:05:49-05:00</lastmod>
+    <lastmod>2017-02-16T08:32:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   

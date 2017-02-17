@@ -9,6 +9,73 @@
     <atom:link href="https://techglider.github.io/tags/computer-networks/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>BBR: Congestion-based Congestion Control</title>
+      <link>https://techglider.github.io/review/bbr-congestion-based-congestion-control/</link>
+      <pubDate>Thu, 16 Feb 2017 08:32:13 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/review/bbr-congestion-based-congestion-control/</guid>
+      <description>&lt;h2 id=&#34;paper-title&#34;&gt;Paper Title&lt;/h2&gt;
+
+&lt;p&gt;BBR: Congestion-based Congestion Control&lt;/p&gt;
+
+&lt;h2 id=&#34;author-s&#34;&gt;Author(s)&lt;/h2&gt;
+
+&lt;p&gt;Neal Cardwell, Yuchung Cheng, C. Stephen Gunn, Soheil Hassas Yeganeh, Van Jacobson&lt;/p&gt;
+
+&lt;h2 id=&#34;date&#34;&gt;Date&lt;/h2&gt;
+
+&lt;p&gt;October 2016. Appeared in both:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;September-October 2016. ACM Queue - Network Congestion Vol. 14 No. 5&lt;/li&gt;
+&lt;li&gt;February 2017. Communications of the ACM Volume 60 Issue 2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;doi-authoritative-link-to-paper&#34;&gt;DOI/Authoritative Link to Paper&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ACM Queue: &lt;a href=&#34;http://dl.acm.org/citation.cfm?id=3022184&#34;&gt;doi:10.1145/3012426.3022184&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CACM: &lt;a href=&#34;https://doi.org/10.1145/3009824&#34;&gt;doi:10.1145/3009824&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.google.com/pubs/pub45646.html&#34;&gt;Listing on Research at Google&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;novel-idea-main-result-s&#34;&gt;Novel Idea / Main Result(s)&lt;/h2&gt;
+
+&lt;p&gt;The paper describes how by identifying the core parameters in congestion control &amp;ndash; propagation time of the physical medium and bottleneck bandwidth &amp;ndash; the authors were able to come up with a new congestion control mechanism (BBR) that is refreshingly simple and performs better in most cases in both bandwidths and latency.&lt;/p&gt;
+
+&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
+
+&lt;p&gt;After reading the &lt;a href=&#34;https://techglider.github.io/review/analysis-and-simulation-of-a-fair-queueing-algorithm/&#34;&gt;last&lt;/a&gt; &lt;a href=&#34;https://techglider.github.io/review/flow-rate-fairness-dismantling-a-religion/&#34;&gt;two&lt;/a&gt; papers, I was surprised how advanced math and non-intuitive solutions had taken over the world of network management at Internet scale. This paper&amp;rsquo;s attempt to go to the very bottom of the problem by relooking at Kleinrock&amp;rsquo;s formal model of congestion and utilizing modern control theory to come up with a simple state machine as a solution is both refreshing and relaxing. The experiments performed at the Google scale over a span of services and time periods validate their reasoning and ideas. I feel comfortable to say that this paper&amp;rsquo;s contributions hold huge potential for the future of Internet architecture.&lt;/p&gt;
+
+&lt;h2 id=&#34;evidence&#34;&gt;Evidence&lt;/h2&gt;
+
+&lt;p&gt;The authors have used a variety of analyses to present convincing arguments to validate their proposal &amp;ndash; simple intuitive reasoning about the problem of congestion conforming to (classical?) research in the formal theory of communications (Kleinrock); mathematical but fairly intuitive linear programming analysis; multiple comparisons with the behavior of a previous well-optimized TCP implementation (CUBIC) and finally and perhaps most importantly experiments done on both Google&amp;rsquo;s WAN and YouTube which provide real-world insights and strong evidence in their favor.&lt;/p&gt;
+
+&lt;h2 id=&#34;reproducibility&#34;&gt;Reproducibility&lt;/h2&gt;
+
+&lt;p&gt;Yes! The implementation is merged in Linux kernel version 4.9.&lt;/p&gt;
+
+&lt;h2 id=&#34;question&#34;&gt;Question&lt;/h2&gt;
+
+&lt;p&gt;I really liked how, once again, the difference between a spec (TCP) and its various implementations is illustrated in this paper and how end-to-end argument is still relevant even after we have seen so many violations in existing Internet infrastructure. I would like to brainstorm about where else rethinking old ideas from scratch and reducing the problems to their very core has a potential of significant improvements.&lt;/p&gt;
+
+&lt;h2 id=&#34;criticism&#34;&gt;Criticism&lt;/h2&gt;
+
+&lt;p&gt;I would have loved to see some graphs with mix flows of some existing TCP implementation and their interaction with BBR flows.&lt;/p&gt;
+
+&lt;h2 id=&#34;ideas-for-further-work&#34;&gt;Ideas for further work&lt;/h2&gt;
+
+&lt;p&gt;Given how this paper reduced the problem of congestion control to its fundamental core (RTprop and BtlBw) and is designed to stabilize while keeping the queues empty, I am wondering how many complicated queue management solutions (such as the one proposed in the previous paper we read from Briscoe) may not be required anymore and perhaps should be reevaluated.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Review Template Credits:
+&lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;Prof. Rodrigo Fonseca&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Flow Rate Fairness: Dismantling a Religion</title>
       <link>https://techglider.github.io/review/flow-rate-fairness-dismantling-a-religion/</link>
       <pubDate>Tue, 14 Feb 2017 14:05:49 -0500</pubDate>
