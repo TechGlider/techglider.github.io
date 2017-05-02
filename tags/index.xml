@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on The TechGlider</title>
+    <link>https://techglider.github.io/tags/</link>
+    <description>Recent content in Tags on The TechGlider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jul 2016 12:01:54 -0700</lastBuildDate>
+    
+	<atom:link href="https://techglider.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Announcement</title>
+      <link>https://techglider.github.io/tags/announcement/</link>
+      <pubDate>Sun, 31 Jul 2016 12:01:54 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/announcement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>https://techglider.github.io/tags/architecture/</link>
+      <pubDate>Thu, 16 Feb 2017 08:32:13 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clock Synchronization</title>
+      <link>https://techglider.github.io/tags/clock-synchronization/</link>
+      <pubDate>Sun, 31 Jul 2016 20:28:41 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/clock-synchronization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Communications</title>
+      <link>https://techglider.github.io/tags/communications/</link>
+      <pubDate>Tue, 14 Feb 2017 14:05:49 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/tags/communications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compilers</title>
+      <link>https://techglider.github.io/tags/compilers/</link>
+      <pubDate>Mon, 01 May 2017 18:41:46 -0400</pubDate>
+      
+      <guid>https://techglider.github.io/tags/compilers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Networks</title>
+      <link>https://techglider.github.io/tags/computer-networks/</link>
+      <pubDate>Thu, 16 Feb 2017 08:32:13 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/tags/computer-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Congestion Control</title>
+      <link>https://techglider.github.io/tags/congestion-control/</link>
+      <pubDate>Thu, 16 Feb 2017 08:32:13 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/tags/congestion-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed Systems</title>
+      <link>https://techglider.github.io/tags/distributed-systems/</link>
+      <pubDate>Sun, 31 Jul 2016 20:28:41 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fairness</title>
+      <link>https://techglider.github.io/tags/fairness/</link>
+      <pubDate>Thu, 16 Feb 2017 08:32:13 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/tags/fairness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>https://techglider.github.io/tags/history/</link>
+      <pubDate>Mon, 01 May 2017 18:41:46 -0400</pubDate>
+      
+      <guid>https://techglider.github.io/tags/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hopl</title>
+      <link>https://techglider.github.io/tags/hopl/</link>
+      <pubDate>Mon, 01 May 2017 18:41:46 -0400</pubDate>
+      
+      <guid>https://techglider.github.io/tags/hopl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote</title>
+      <link>https://techglider.github.io/tags/keynote/</link>
+      <pubDate>Mon, 01 May 2017 18:41:46 -0400</pubDate>
+      
+      <guid>https://techglider.github.io/tags/keynote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiprocess Systems</title>
+      <link>https://techglider.github.io/tags/multiprocess-systems/</link>
+      <pubDate>Sun, 31 Jul 2016 20:28:41 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/multiprocess-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notation</title>
+      <link>https://techglider.github.io/tags/notation/</link>
+      <pubDate>Mon, 01 May 2017 18:41:46 -0400</pubDate>
+      
+      <guid>https://techglider.github.io/tags/notation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Papers</title>
+      <link>https://techglider.github.io/tags/papers/</link>
+      <pubDate>Thu, 16 Feb 2017 08:32:13 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/tags/papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ppopp</title>
+      <link>https://techglider.github.io/tags/ppopp/</link>
+      <pubDate>Mon, 01 May 2017 18:41:46 -0400</pubDate>
+      
+      <guid>https://techglider.github.io/tags/ppopp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming Languages</title>
+      <link>https://techglider.github.io/tags/programming-languages/</link>
+      <pubDate>Mon, 01 May 2017 18:41:46 -0400</pubDate>
+      
+      <guid>https://techglider.github.io/tags/programming-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protocols</title>
+      <link>https://techglider.github.io/tags/protocols/</link>
+      <pubDate>Wed, 01 Feb 2017 22:43:36 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/tags/protocols/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Policy</title>
+      <link>https://techglider.github.io/tags/public-policy/</link>
+      <pubDate>Tue, 14 Feb 2017 14:05:49 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/tags/public-policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seminar</title>
+      <link>https://techglider.github.io/tags/seminar/</link>
+      <pubDate>Thu, 16 Feb 2017 08:32:13 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/tags/seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sigcomm</title>
+      <link>https://techglider.github.io/tags/sigcomm/</link>
+      <pubDate>Tue, 14 Feb 2017 14:05:49 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/tags/sigcomm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Specification</title>
+      <link>https://techglider.github.io/tags/specification/</link>
+      <pubDate>Mon, 01 May 2017 18:41:46 -0400</pubDate>
+      
+      <guid>https://techglider.github.io/tags/specification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tcp</title>
+      <link>https://techglider.github.io/tags/tcp/</link>
+      <pubDate>Wed, 01 Feb 2017 22:43:36 -0500</pubDate>
+      
+      <guid>https://techglider.github.io/tags/tcp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

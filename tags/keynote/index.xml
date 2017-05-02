@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keynote on The TechGlider</title>
+    <link>https://techglider.github.io/tags/keynote/</link>
+    <description>Recent content in Keynote on The TechGlider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 May 2017 18:41:46 -0400</lastBuildDate>
+    
+	<atom:link href="https://techglider.github.io/tags/keynote/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>It&#39;s Time for a New Old Language</title>
+      <link>https://techglider.github.io/link/new-old-language/</link>
+      <pubDate>Mon, 01 May 2017 18:41:46 -0400</pubDate>
+      
+      <guid>https://techglider.github.io/link/new-old-language/</guid>
+      <description>William (Bill) Gasarch writes on the Computational Complexity blog about a recent talk that Guy Steele gave at Harvard on Harry Lewis&amp;rsquo;s 70th birthday:
+ Guy Steele gave the most technical talk and it was, as the kids say, awesome (do adults still say &amp;lsquo;as the kids say&amp;rsquo;?) Here is a version of the talk:
+A Logial Concern
+Its about how papers at POPL and some other conference have been informally using a language to specify protocols and by now its all bent out of shape.</description>
+    </item>
+    
+  </channel>
+</rss>

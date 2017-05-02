@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Communications on The TechGlider</title>
-    <link>https://techglider.github.io/tags/communications/index.xml</link>
+    <link>https://techglider.github.io/tags/communications/</link>
     <description>Recent content in Communications on The TechGlider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://techglider.github.io/tags/communications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Feb 2017 14:05:49 -0500</lastBuildDate>
+    
+	<atom:link href="https://techglider.github.io/tags/communications/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Flow Rate Fairness: Dismantling a Religion</title>
@@ -26,49 +29,7 @@
 
 &lt;p&gt;March 2007. ACM SIGCOMM Computer Communication Review, Volume 37 Issue 2.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;doi-authoritative-link-to-paper&#34;&gt;DOI/Authoritative Link to Paper&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://dx.doi.org/10.1145/1232919.1232926&#34;&gt;doi:10.1145/1232919.1232926&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.bobbriscoe.net/pubs.html#rateFairDis&#34;&gt;Author&amp;rsquo;s listing of paper and slides&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;novel-idea-main-result-s&#34;&gt;Novel Idea / Main Result(s)&lt;/h2&gt;
-
-&lt;p&gt;The main claim of the paper is that flow rate as a metric for fairness is completely bogus and a better metric for the same should be the cost.&lt;/p&gt;
-
-&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
-
-&lt;p&gt;Not completely sure how fairness criterion has/has not changed in the past 10 years since this paper was published. But my takeaway from this paper is that long-established norms should not be taken for granted and there is value in evaluating the truth for each established view from time to time.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s fair to say though that I did not find any rebuttal paper in the defense of flow rate fairness as the author of this paper demands. However, RFC 5290 presents some alternate views on the topic.&lt;/p&gt;
-
-&lt;h2 id=&#34;evidence&#34;&gt;Evidence&lt;/h2&gt;
-
-&lt;p&gt;I did not find the argument very convincing given the lack of analytical or empirical analysis. The reasoning is based on arguments from philosophy, social science and &amp;ldquo;real life&amp;rdquo; for a more accurate definition of fairness.&lt;/p&gt;
-
-&lt;h2 id=&#34;reproducibility&#34;&gt;Reproducibility&lt;/h2&gt;
-
-&lt;p&gt;No, the description is not sufficient to reproduce the work.&lt;/p&gt;
-
-&lt;h2 id=&#34;question&#34;&gt;Question&lt;/h2&gt;
-
-&lt;p&gt;I was reminded of thinking about the Internet as a utility (from the net neutrality debate outside of this paper) and how another utility &amp;ndash; electricity &amp;ndash; is well distributed across the grid system fairly. I wonder if there are lessons to be learned from this analogy given the complexities and non-uniform nature of the global Internet.&lt;/p&gt;
-
-&lt;h2 id=&#34;criticism&#34;&gt;Criticism&lt;/h2&gt;
-
-&lt;p&gt;My main concern with this paper is that it tries to make such a big claim about the futility of a fairness metric that has been working for a couple of decades but fails to provide enough persuasive evidence to substantiate the claims.&lt;/p&gt;
-
-&lt;h2 id=&#34;ideas-for-further-work&#34;&gt;Ideas for further work&lt;/h2&gt;
-
-&lt;p&gt;See the Question section above.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Review Template Credits:
-&lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;Prof. Rodrigo Fonseca&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,49 +50,7 @@
 
 &lt;p&gt;September 1989. Symposium proceedings on Communications architectures &amp;amp; protocols (SIGCOMM &amp;lsquo;89).&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;doi-authoritative-link-to-paper&#34;&gt;DOI/Authoritative Link to Paper&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://dx.doi.org/10.1145/75246.75248&#34;&gt;doi:10.1145/75246.75248&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cseweb.ucsd.edu/classes/wi01/cse222/papers/demers-fq-ire90.pdf&#34;&gt;Alternate single column format&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;novel-idea-main-result-s&#34;&gt;Novel Idea / Main Result(s)&lt;/h2&gt;
-
-&lt;p&gt;The paper presents an improved version of the fair queueing algorithm first proposed by Nagle, discusses limitations of congestion control with FCFS queuing, presents mathematical foundation behind their algorithm and finally, discusses the performance of this new algorithm in various real world scenarios with the help of simulations.&lt;/p&gt;
-
-&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
-
-&lt;p&gt;This was the first time that performance implications of a fair queuing algorithm were studied in detail and published. Network scheduling / queue management became an active area of networks research with several other algorithms proposed later.&lt;/p&gt;
-
-&lt;p&gt;Further, this paper identifies flow (called conversations in this paper) as a good criterion for bandwidth &amp;amp; buffer allocations, which has become a standard concept in the Software-Defined Networking research.&lt;/p&gt;
-
-&lt;h2 id=&#34;evidence&#34;&gt;Evidence&lt;/h2&gt;
-
-&lt;p&gt;The authors come up with a methodology to emulate bit-wise round robin scheduling (which is intuitive to fairness but impractical for implementation) and provide both rigorous mathematical analysis and empirical analysis (with the help of network simulation experiments in various scenario) to justify their results. The evidence is, hence, quite convincing.&lt;/p&gt;
-
-&lt;h2 id=&#34;reproducibility&#34;&gt;Reproducibility&lt;/h2&gt;
-
-&lt;p&gt;Yes, the description is enough, with a lot of work and resources&lt;/p&gt;
-
-&lt;h2 id=&#34;question&#34;&gt;Question&lt;/h2&gt;
-
-&lt;p&gt;Primarily, I wonder, (as the authors point out in conclusion) whether technology has matured enough in past 30 years that we can have a true implementation of a fair queuing (for a reasonable definition of &amp;ldquo;fair&amp;rdquo;)?&lt;/p&gt;
-
-&lt;h2 id=&#34;criticism&#34;&gt;Criticism&lt;/h2&gt;
-
-&lt;p&gt;I found the mathematics covered in §2.3 fairly hard to follow and perhaps it could have used further explanation. This is in contrast to the scenario diagrams presented in a later section which were both self-descriptive and had major observations pointed out in prose.&lt;/p&gt;
-
-&lt;h2 id=&#34;ideas-for-further-work&#34;&gt;Ideas for further work&lt;/h2&gt;
-
-&lt;p&gt;NA&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Review Template Credits:
-&lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;Prof. Rodrigo Fonseca&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -152,54 +71,7 @@
 
 &lt;p&gt;November 1988 (Slightly revised version; originally published in Symposium proceedings on Communications architectures and protocols (SIGCOMM &amp;lsquo;88))&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;doi-authoritative-link-to-paper&#34;&gt;DOI/Authoritative Link to Paper&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://dx.doi.org/10.1145/52324.52356&#34;&gt;doi:10.1145/52324.52356&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/tcp.pdf&#34;&gt;Revised version that I read&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;novel-idea-main-result-s&#34;&gt;Novel Idea / Main Result(s)&lt;/h2&gt;
-
-&lt;p&gt;The paper describes the congestion-related problems observed in the erstwhile TCP variant and reports on the algorithms introduced to tackle those problems.&lt;/p&gt;
-
-&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
-
-&lt;p&gt;Given we are still reading/talking about this paper after almost three decades, it is fair to say the paper has had a lasting impact. Recalling the congestion control and avoidance concepts studied in &lt;a href=&#34;https://cs.brown.edu/courses/csci1680/f16/&#34;&gt;CS168&lt;/a&gt;, I see that most of those basic ideas originated here in this paper and its references.&lt;/p&gt;
-
-&lt;h2 id=&#34;evidence&#34;&gt;Evidence&lt;/h2&gt;
-
-&lt;p&gt;Both intuitive/mathematical and empirical analysis is described. I especially like the effectiveness of the diagrams in Fig 1 and 2. The charts are all drawn from experiments done between LBL and UCB in a real setting and hence are quite convincing.&lt;/p&gt;
-
-&lt;h2 id=&#34;reproducibility&#34;&gt;Reproducibility&lt;/h2&gt;
-
-&lt;p&gt;Yes, the description is enough, with a lot of work and resources&lt;/p&gt;
-
-&lt;h2 id=&#34;question&#34;&gt;Question&lt;/h2&gt;
-
-&lt;p&gt;The authors talk about possible change in some of their results when the Internet grows large (like the introduction of a third term in the Taylor series on pg. 9) at multiple points. I would like to see what all has changed and what has stood the test of time.&lt;/p&gt;
-
-&lt;h2 id=&#34;criticism&#34;&gt;Criticism&lt;/h2&gt;
-
-&lt;p&gt;NA&lt;/p&gt;
-
-&lt;h2 id=&#34;ideas-for-further-work&#34;&gt;Ideas for further work&lt;/h2&gt;
-
-&lt;p&gt;I found the connections to queueing theory/control theory and even the conservation principle of liquid flow as an analogy to network flow really interesting. It also reminded me of &lt;a href=&#34;https://techglider.github.io/review/time-clocks-and-ordering-of-events-in-a-distributed-system/&#34;&gt;Lamport&amp;rsquo;s time, clocks, ordering paper&lt;/a&gt; where he was able to bring in ideas from relativity into computing. These connections, in general, suggest how sometimes well-established ideas from another field can be applied to one&amp;rsquo;s field and why interdisciplinary research makes good sense.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Review Template Credits:
-&lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;Prof. Rodrigo Fonseca&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;I am taking a graduate seminar this semester at Brown: &lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s17/&#34;&gt;Special Topics on Networking and Distributed Systems&lt;/a&gt;. This and most of the following paper reviews until early-May will be my reviews submitted for this seminar with some minor editing.&lt;/li&gt;
-&lt;li&gt;This review posted here on Feb 9, 2017&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
