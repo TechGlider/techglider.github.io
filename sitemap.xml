@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://techglider.github.io/update/how-to-reason-about-correctness-of-programs-designed-for-non-volatile-memory/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techglider.github.io/link/new-old-language/</loc>
     <lastmod>2017-05-01T18:41:46-04:00</lastmod>
   </url>
@@ -44,13 +49,19 @@
   
   <url>
     <loc>https://techglider.github.io/tags/announcement/</loc>
-    <lastmod>2016-07-31T12:01:54-07:00</lastmod>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://techglider.github.io/tags/architecture/</loc>
     <lastmod>2017-02-16T08:32:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techglider.github.io/tags/brown/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -84,8 +95,20 @@
   </url>
   
   <url>
+    <loc>https://techglider.github.io/tags/concurrency/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techglider.github.io/tags/congestion-control/</loc>
     <lastmod>2017-02-16T08:32:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techglider.github.io/tags/data-structure/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -98,6 +121,18 @@
   <url>
     <loc>https://techglider.github.io/tags/fairness/</loc>
     <lastmod>2017-02-16T08:32:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techglider.github.io/tags/formal-reasoning/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techglider.github.io/tags/graph/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -132,8 +167,20 @@
   </url>
   
   <url>
+    <loc>https://techglider.github.io/tags/masters/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techglider.github.io/tags/multiprocess-systems/</loc>
     <lastmod>2016-07-31T20:28:41-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techglider.github.io/tags/non-volatile/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -144,14 +191,26 @@
   </url>
   
   <url>
+    <loc>https://techglider.github.io/tags/nvm/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techglider.github.io/tags/papers/</loc>
     <lastmod>2017-02-16T08:32:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://techglider.github.io/tags/persistent-memory/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techglider.github.io/post/</loc>
-    <lastmod>2016-07-31T12:01:54-07:00</lastmod>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -168,6 +227,12 @@
   </url>
   
   <url>
+    <loc>https://techglider.github.io/tags/project/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techglider.github.io/tags/protocols/</loc>
     <lastmod>2017-02-01T22:43:36-05:00</lastmod>
     <priority>0</priority>
@@ -176,6 +241,18 @@
   <url>
     <loc>https://techglider.github.io/tags/public-policy/</loc>
     <lastmod>2017-02-14T14:05:49-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techglider.github.io/tags/report/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techglider.github.io/tags/research/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -211,7 +288,7 @@
   
   <url>
     <loc>https://techglider.github.io/tags/</loc>
-    <lastmod>2016-07-31T12:01:54-07:00</lastmod>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -223,13 +300,25 @@
   
   <url>
     <loc>https://techglider.github.io/</loc>
-    <lastmod>2017-05-01T18:41:46-04:00</lastmod>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://techglider.github.io/categories/update/</loc>
-    <lastmod>2016-07-31T12:01:54-07:00</lastmod>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techglider.github.io/tags/verification/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techglider.github.io/tags/writing/</loc>
+    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   

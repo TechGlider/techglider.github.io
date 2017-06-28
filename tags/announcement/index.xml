@@ -6,10 +6,21 @@
     <description>Recent content in Announcement on The TechGlider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jul 2016 12:01:54 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jun 2017 21:54:56 -0700</lastBuildDate>
     
 	<atom:link href="https://techglider.github.io/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Reason about Correctness of Programs Designed for Non-Volatile Memory?</title>
+      <link>https://techglider.github.io/update/how-to-reason-about-correctness-of-programs-designed-for-non-volatile-memory/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/update/how-to-reason-about-correctness-of-programs-designed-for-non-volatile-memory/</guid>
+      <description>I recently graduated with a master&amp;rsquo;s degree in Computer Science from Brown University. My project report that documents the work I did over the last one year is now available on the Brown CS website at https://cs.brown.edu/research/pubs/theses/masters/2017/singhal.kartik.pdf.
+I am making a copy available here as well: PDF.
+Abstract  Traditional storage stack necessitates a separate data format for the persistence of in-memory data structures, requires additional code for conversion to that data format and wastes a lot of CPU time.</description>
+    </item>
     
     <item>
       <title>Welcome to the all new TechGlider!</title>

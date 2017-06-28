@@ -6,7 +6,7 @@
     <description>Recent content in Tags on The TechGlider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jul 2016 12:01:54 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jun 2017 21:54:56 -0700</lastBuildDate>
     
 	<atom:link href="https://techglider.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Announcement</title>
       <link>https://techglider.github.io/tags/announcement/</link>
-      <pubDate>Sun, 31 Jul 2016 12:01:54 -0700</pubDate>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
       
       <guid>https://techglider.github.io/tags/announcement/</guid>
       <description></description>
@@ -26,6 +26,15 @@
       <pubDate>Thu, 16 Feb 2017 08:32:13 -0500</pubDate>
       
       <guid>https://techglider.github.io/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brown</title>
+      <link>https://techglider.github.io/tags/brown/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/brown/</guid>
       <description></description>
     </item>
     
@@ -66,11 +75,29 @@
     </item>
     
     <item>
+      <title>Concurrency</title>
+      <link>https://techglider.github.io/tags/concurrency/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/concurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Congestion Control</title>
       <link>https://techglider.github.io/tags/congestion-control/</link>
       <pubDate>Thu, 16 Feb 2017 08:32:13 -0500</pubDate>
       
       <guid>https://techglider.github.io/tags/congestion-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Structure</title>
+      <link>https://techglider.github.io/tags/data-structure/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/data-structure/</guid>
       <description></description>
     </item>
     
@@ -89,6 +116,24 @@
       <pubDate>Thu, 16 Feb 2017 08:32:13 -0500</pubDate>
       
       <guid>https://techglider.github.io/tags/fairness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formal Reasoning</title>
+      <link>https://techglider.github.io/tags/formal-reasoning/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/formal-reasoning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph</title>
+      <link>https://techglider.github.io/tags/graph/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/graph/</guid>
       <description></description>
     </item>
     
@@ -120,11 +165,29 @@
     </item>
     
     <item>
+      <title>Masters</title>
+      <link>https://techglider.github.io/tags/masters/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/masters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Multiprocess Systems</title>
       <link>https://techglider.github.io/tags/multiprocess-systems/</link>
       <pubDate>Sun, 31 Jul 2016 20:28:41 -0700</pubDate>
       
       <guid>https://techglider.github.io/tags/multiprocess-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non Volatile</title>
+      <link>https://techglider.github.io/tags/non-volatile/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/non-volatile/</guid>
       <description></description>
     </item>
     
@@ -138,11 +201,29 @@
     </item>
     
     <item>
+      <title>Nvm</title>
+      <link>https://techglider.github.io/tags/nvm/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/nvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Papers</title>
       <link>https://techglider.github.io/tags/papers/</link>
       <pubDate>Thu, 16 Feb 2017 08:32:13 -0500</pubDate>
       
       <guid>https://techglider.github.io/tags/papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Persistent Memory</title>
+      <link>https://techglider.github.io/tags/persistent-memory/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/persistent-memory/</guid>
       <description></description>
     </item>
     
@@ -165,6 +246,15 @@
     </item>
     
     <item>
+      <title>Project</title>
+      <link>https://techglider.github.io/tags/project/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Protocols</title>
       <link>https://techglider.github.io/tags/protocols/</link>
       <pubDate>Wed, 01 Feb 2017 22:43:36 -0500</pubDate>
@@ -179,6 +269,24 @@
       <pubDate>Tue, 14 Feb 2017 14:05:49 -0500</pubDate>
       
       <guid>https://techglider.github.io/tags/public-policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Report</title>
+      <link>https://techglider.github.io/tags/report/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://techglider.github.io/tags/research/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/research/</guid>
       <description></description>
     </item>
     
@@ -215,6 +323,24 @@
       <pubDate>Wed, 01 Feb 2017 22:43:36 -0500</pubDate>
       
       <guid>https://techglider.github.io/tags/tcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verification</title>
+      <link>https://techglider.github.io/tags/verification/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/verification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://techglider.github.io/tags/writing/</link>
+      <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
+      
+      <guid>https://techglider.github.io/tags/writing/</guid>
       <description></description>
     </item>
     
