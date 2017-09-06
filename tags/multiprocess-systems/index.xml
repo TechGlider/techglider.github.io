@@ -2,14 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Multiprocess Systems on The TechGlider</title>
-    <link>https://techglider.github.io/tags/multiprocess-systems/</link>
+    <link>https://techglider.github.io/tags/multiprocess-systems/index.xml</link>
     <description>Recent content in Multiprocess Systems on The TechGlider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jul 2016 20:28:41 -0700</lastBuildDate>
-    
-	<atom:link href="https://techglider.github.io/tags/multiprocess-systems/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://techglider.github.io/tags/multiprocess-systems/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Time, Clocks, and Ordering of Events in a Distributed System</title>
@@ -29,7 +26,69 @@
 
 &lt;p&gt;July 1978. Communications of the ACM, Volume 21 Issue 7.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;doi-authoritative-link-to-paper&#34;&gt;DOI/Authoritative Link to Paper&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://dx.doi.org/10.1145/359545.359563&#34;&gt;doi:10.1145/359545.359563&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Section about this paper at &lt;a href=&#34;http://research.microsoft.com/en-us/um/people/lamport/pubs/pubs.html#time-clocks&#34;&gt;The Writings of Leslie Lamport&lt;/a&gt; has a good note about the historical context and how Lamport&amp;rsquo;s understanding of special relativity led to his insights about ordering of computing events presented in this paper.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;novel-idea&#34;&gt;Novel Idea&lt;/h2&gt;
+
+&lt;p&gt;Establishing total order of events can be used to implement any distributed system in the form of a state machine.&lt;/p&gt;
+
+&lt;h2 id=&#34;main-result-s&#34;&gt;Main Result(s)&lt;/h2&gt;
+
+&lt;p&gt;Happened before relationship within a system establishes a partial order of events in the system, but it is not sufficient to say which event among two occurred first, hence the need for a total order. Lamport presents an algorithm to extend partial ordering to an arbitrary total ordering of events while introducing the concept of logical clocks (called &lt;a href=&#34;https://en.wikipedia.org/wiki/Lamport_timestamps&#34;&gt;Lamport timestamps&lt;/a&gt; these days). A distributed algorithm to solve mutual exclusion is presented which demonstrates that the participating processes could just be treated as sequential state machines which can further be used to implement any arbitrary distributed system.&lt;/p&gt;
+
+&lt;p&gt;Need for synchronization of physical clocks arises to prevent possible anomalies as observed by user (or one could synchronize timestamps over all communication in the network to maintain happened-before relationship). Lamport presents a theorem for the upper bound on the amount of acceptable drift in synchronizing physical clocks (the proof is hard to read).&lt;/p&gt;
+
+&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
+
+&lt;p&gt;This is one of the most cited papers in Computer Science and considered one of the first true distributed systems paper. Introduces:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A mathematical happens-before (&amp;ldquo;happened before&amp;rdquo; in the paper) relationship, which is widely used as the basis for current distributed systems research and has found further application in other systems areas (foundation of &lt;a href=&#34;https://en.wikipedia.org/wiki/Java_memory_model&#34;&gt;Java&lt;/a&gt; and &lt;a href=&#34;http://en.cppreference.com/w/cpp/language/memory_model&#34;&gt;C++&lt;/a&gt; memory models; &lt;a href=&#34;http://dx.doi.org/10.1145/2660193.2660224&#34;&gt;Atlas&lt;/a&gt;, a persistent programming model (that I am working with this summer)).&lt;/li&gt;
+&lt;li&gt;Concept of causality / causal ordering of events in distributed systems.&lt;/li&gt;
+&lt;li&gt;Concept of logical clocks (Lamport clocks or Lamport timestamps) which further led to development of important ideas like vector clocks in later distributed systems research (while logical clocks are just software counters, I still need to learn what vector clocks are).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More at &lt;a href=&#34;http://www.podc.org/influential/2000-influential-paper/&#34;&gt;2000 PODC Influential Paper Award&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;h2 id=&#34;evidence&#34;&gt;Evidence&lt;/h2&gt;
+
+&lt;p&gt;This paper is fairly mathematical in nature. Mathematical definitions for most ideas introduced are provided which are then used to logically establish further results. Includes just one theorem which provides a upper bound on drift that is allowed in synchronizing physical time clocks but the author himself admits the proof is pretty difficult and hence is included in the Appendix.&lt;/p&gt;
+
+&lt;h2 id=&#34;prior-work&#34;&gt;Prior Work&lt;/h2&gt;
+
+&lt;p&gt;There are just 4 references cited in the paper, two of which are foundational for this work, both describing relativity. Concept of causal effect is inspired from special relativity.&lt;/p&gt;
+
+&lt;h2 id=&#34;competitive-work&#34;&gt;Competitive Work&lt;/h2&gt;
+
+&lt;p&gt;NA&lt;/p&gt;
+
+&lt;h2 id=&#34;reproducibility&#34;&gt;Reproducibility&lt;/h2&gt;
+
+&lt;p&gt;NA&lt;/p&gt;
+
+&lt;h2 id=&#34;question&#34;&gt;Question&lt;/h2&gt;
+
+&lt;p&gt;Is the concept of logical time (given it can be used to establish total ordering) always sufficient for implementing modern distributed systems or do we always need to resort to physical clocks? How are the space overheads (described in mutual exclusion example in the paper) overcome?&lt;/p&gt;
+
+&lt;h2 id=&#34;criticism&#34;&gt;Criticism&lt;/h2&gt;
+
+&lt;p&gt;Do physical clocks as described by Lamport (with difficult to grasp mathematics and proof) play any important rule in modern design of distributed systems (apart from time sync protocols like NTP)?&lt;/p&gt;
+
+&lt;h2 id=&#34;ideas-for-further-work&#34;&gt;Ideas for further work&lt;/h2&gt;
+
+&lt;p&gt;This paper clarified many concepts about time and synchronization between processes for me which should be useful in my current summer project. A good insight was how one does not need to depend on system clock for establishing order of events among processes even on a single machine.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Review Template Credits:
+&lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;Prof. Rodrigo Fonseca&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

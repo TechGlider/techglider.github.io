@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>https://techglider.github.io/update/how-to-reason-about-correctness-of-programs-designed-for-non-volatile-memory/</loc>
@@ -288,7 +287,6 @@
   
   <url>
     <loc>https://techglider.github.io/tags/</loc>
-    <lastmod>2017-06-27T21:54:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   

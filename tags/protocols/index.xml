@@ -2,14 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Protocols on The TechGlider</title>
-    <link>https://techglider.github.io/tags/protocols/</link>
+    <link>https://techglider.github.io/tags/protocols/index.xml</link>
     <description>Recent content in Protocols on The TechGlider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Feb 2017 22:43:36 -0500</lastBuildDate>
-    
-	<atom:link href="https://techglider.github.io/tags/protocols/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://techglider.github.io/tags/protocols/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Congestion Avoidance and Control</title>
@@ -29,7 +26,54 @@
 
 &lt;p&gt;November 1988 (Slightly revised version; originally published in Symposium proceedings on Communications architectures and protocols (SIGCOMM &amp;lsquo;88))&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;doi-authoritative-link-to-paper&#34;&gt;DOI/Authoritative Link to Paper&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://dx.doi.org/10.1145/52324.52356&#34;&gt;doi:10.1145/52324.52356&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/tcp.pdf&#34;&gt;Revised version that I read&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;novel-idea-main-result-s&#34;&gt;Novel Idea / Main Result(s)&lt;/h2&gt;
+
+&lt;p&gt;The paper describes the congestion-related problems observed in the erstwhile TCP variant and reports on the algorithms introduced to tackle those problems.&lt;/p&gt;
+
+&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
+
+&lt;p&gt;Given we are still reading/talking about this paper after almost three decades, it is fair to say the paper has had a lasting impact. Recalling the congestion control and avoidance concepts studied in &lt;a href=&#34;https://cs.brown.edu/courses/csci1680/f16/&#34;&gt;CS168&lt;/a&gt;, I see that most of those basic ideas originated here in this paper and its references.&lt;/p&gt;
+
+&lt;h2 id=&#34;evidence&#34;&gt;Evidence&lt;/h2&gt;
+
+&lt;p&gt;Both intuitive/mathematical and empirical analysis is described. I especially like the effectiveness of the diagrams in Fig 1 and 2. The charts are all drawn from experiments done between LBL and UCB in a real setting and hence are quite convincing.&lt;/p&gt;
+
+&lt;h2 id=&#34;reproducibility&#34;&gt;Reproducibility&lt;/h2&gt;
+
+&lt;p&gt;Yes, the description is enough, with a lot of work and resources&lt;/p&gt;
+
+&lt;h2 id=&#34;question&#34;&gt;Question&lt;/h2&gt;
+
+&lt;p&gt;The authors talk about possible change in some of their results when the Internet grows large (like the introduction of a third term in the Taylor series on pg. 9) at multiple points. I would like to see what all has changed and what has stood the test of time.&lt;/p&gt;
+
+&lt;h2 id=&#34;criticism&#34;&gt;Criticism&lt;/h2&gt;
+
+&lt;p&gt;NA&lt;/p&gt;
+
+&lt;h2 id=&#34;ideas-for-further-work&#34;&gt;Ideas for further work&lt;/h2&gt;
+
+&lt;p&gt;I found the connections to queueing theory/control theory and even the conservation principle of liquid flow as an analogy to network flow really interesting. It also reminded me of &lt;a href=&#34;https://techglider.github.io/review/time-clocks-and-ordering-of-events-in-a-distributed-system/&#34;&gt;Lamport&amp;rsquo;s time, clocks, ordering paper&lt;/a&gt; where he was able to bring in ideas from relativity into computing. These connections, in general, suggest how sometimes well-established ideas from another field can be applied to one&amp;rsquo;s field and why interdisciplinary research makes good sense.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Review Template Credits:
+&lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s14/review.html&#34;&gt;Prof. Rodrigo Fonseca&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I am taking a graduate seminar this semester at Brown: &lt;a href=&#34;http://cs.brown.edu/courses/csci2950-u/s17/&#34;&gt;Special Topics on Networking and Distributed Systems&lt;/a&gt;. This and most of the following paper reviews until early-May will be my reviews submitted for this seminar with some minor editing.&lt;/li&gt;
+&lt;li&gt;This review posted here on Feb 9, 2017&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
   </channel>

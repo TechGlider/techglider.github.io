@@ -2,14 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Report on The TechGlider</title>
-    <link>https://techglider.github.io/tags/report/</link>
+    <link>https://techglider.github.io/tags/report/index.xml</link>
     <description>Recent content in Report on The TechGlider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jun 2017 21:54:56 -0700</lastBuildDate>
-    
-	<atom:link href="https://techglider.github.io/tags/report/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://techglider.github.io/tags/report/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to Reason about Correctness of Programs Designed for Non-Volatile Memory?</title>
@@ -17,9 +14,22 @@
       <pubDate>Tue, 27 Jun 2017 21:54:56 -0700</pubDate>
       
       <guid>https://techglider.github.io/update/how-to-reason-about-correctness-of-programs-designed-for-non-volatile-memory/</guid>
-      <description>I recently graduated with a master&amp;rsquo;s degree in Computer Science from Brown University. My project report that documents the work I did over the last one year is now available on the Brown CS website at https://cs.brown.edu/research/pubs/theses/masters/2017/singhal.kartik.pdf.
-I am making a copy available here as well: PDF.
-Abstract  Traditional storage stack necessitates a separate data format for the persistence of in-memory data structures, requires additional code for conversion to that data format and wastes a lot of CPU time.</description>
+      <description>
+
+&lt;p&gt;I recently graduated with a &lt;a href=&#34;https://cs.brown.edu/degrees/masters/&#34;&gt;master&amp;rsquo;s degree&lt;/a&gt; in &lt;a href=&#34;https://cs.brown.edu&#34;&gt;Computer Science&lt;/a&gt; from &lt;a href=&#34;https://www.brown.edu&#34;&gt;Brown University&lt;/a&gt;. My project report that documents the work I did over the last one year is now available on the &lt;a href=&#34;https://cs.brown.edu/research/pubs/theses/masters/&#34;&gt;Brown CS website&lt;/a&gt; at &lt;a href=&#34;https://cs.brown.edu/research/pubs/theses/masters/2017/singhal.kartik.pdf&#34;&gt;https://cs.brown.edu/research/pubs/theses/masters/2017/singhal.kartik.pdf&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am making a copy available here as well: &lt;a href=&#34;https://techglider.github.io/kartik-scm-report.pdf&#34;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Traditional storage stack necessitates a separate data format for the persistence of in-memory data structures, requires additional code for conversion to that data format and wastes a lot of CPU time. Upcoming byte-addressable non-volatile memory (NVM) technologies such as memristors or phase change memory offer an opportunity to rethink how code interacts with persistent data. Researchers have come up with a variety of programming models to make effective use of NVM but, unfortunately, it is considered hard to reason about the safety properties provided by these models.&lt;/p&gt;
+
+&lt;p&gt;In this report, we look at existing work in a somewhat related field of formal reasoning about the correctness of concurrent software and discuss whether those techniques can be applied to software designed for NVM or persistent memory.&lt;/p&gt;
+
+&lt;p&gt;We also document our design of a concurrent graph data structure for non-volatile memory which offers crash-resilience with the help of Atlas programming model.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
   </channel>

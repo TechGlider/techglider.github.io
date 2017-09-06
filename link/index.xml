@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Links on The TechGlider</title>
-    <link>https://techglider.github.io/link/</link>
+    <link>https://techglider.github.io/link/index.xml</link>
     <description>Recent content in Links on The TechGlider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 May 2017 18:41:46 -0400</lastBuildDate>
-    
-	<atom:link href="https://techglider.github.io/link/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://techglider.github.io/link/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>It&#39;s Time for a New Old Language</title>
@@ -17,10 +15,34 @@
       <pubDate>Mon, 01 May 2017 18:41:46 -0400</pubDate>
       
       <guid>https://techglider.github.io/link/new-old-language/</guid>
-      <description>William (Bill) Gasarch writes on the Computational Complexity blog about a recent talk that Guy Steele gave at Harvard on Harry Lewis&amp;rsquo;s 70th birthday (some spellings corrected):
- Guy Steele gave the most technical talk and it was, as the kids say, awesome (do adults still say &amp;lsquo;as the kids say&amp;rsquo;?) Here is a version of the talk:
-A Logical Concern
-Its about how papers at POPL and some other conference have been informally using a language to specify protocols and by now its all bent out of shape.</description>
+      <description>&lt;p&gt;William (Bill) Gasarch writes on the &lt;a href=&#34;http://blog.computationalcomplexity.org/&#34;&gt;Computational Complexity blog&lt;/a&gt; about a recent talk that Guy Steele gave at Harvard on Harry Lewis&amp;rsquo;s 70th birthday (&lt;em&gt;some spellings corrected&lt;/em&gt;):&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Guy Steele gave the most technical talk and it was, as the kids say, awesome (do adults still say &amp;lsquo;as the kids say&amp;rsquo;?) Here is a version of the talk:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://labs.oracle.com/pls/apex/f?p=labs:40150:0::::P40000_PUBLICATION_ID:4986&#34;&gt;A Logical Concern&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Its about how papers at POPL and some other conference have been informally using a language to specify protocols and by now its all bent out of shape. There is also some nice history of math embedded in the talk of which I&amp;rsquo;ll say one thing: one way to group terms together is by placing a bar over them. The most common use of this now is the square-root sign which didn&amp;rsquo;t always have that bar over the quantity.&lt;/p&gt;
+
+&lt;p&gt;Guy&amp;rsquo;s talk even had some slides about his notebooks from Harvard, from a course Harry taught back in 1974 (the first course Harry taught at Harvard). Part of the course was on the sequent calculus which relates to Guys work and the current paper. Guy&amp;rsquo;s notebook had both material relevant to the current paper and doodles of things like a picture of a Church next to Church&amp;rsquo;s thesis.&lt;/p&gt;
+
+&lt;p&gt;The paper was very labor intensive since you can&amp;rsquo;t just use a search program to search for some of the notations he was talking about. For example overbar and underbar. So he had to go through ALL of the POPL proceedings (and a few others) by hand. In 2017. Will that ever be easier?&lt;/p&gt;
+
+&lt;p&gt;He also had a two quotes about proofs:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s not enough to prove something. You must seduce people into believing it&lt;/p&gt;
+
+&lt;p&gt;One man&amp;rsquo;s truth is another man&amp;rsquo;s cold broccoli&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I leave it to you to figure out who these quotes are credited to (different people).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The talk video (~42 minutes) is available on &lt;a href=&#34;https://youtu.be/lEPmW0-EWRw?t=37m46s&#34;&gt;YouTube&lt;/a&gt;. This was an adaptation of an invited keynote that Guy Steele gave at PPoPP &amp;lsquo;17 titled &lt;a href=&#34;http://dl.acm.org/citation.cfm?id=3018773&#34;&gt;It&amp;rsquo;s Time for a New Old Language&lt;/a&gt;. The video for the original talk seems unavailable. (&lt;em&gt;Aside&lt;/em&gt;: Does ACM ever publish videos of all the talks that are recorded during their conferences? If not, why not in this day and age of convenient video distribution? I cannot find the videos for POPL &amp;lsquo;16 with a quick Google search, which I had attended and seem to recall was being recorded.)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.computationalcomplexity.org/2017/05/a-celebration-of-computer-science-at.html&#34;&gt;Visit original source&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
